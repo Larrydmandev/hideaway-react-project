@@ -1,13 +1,320 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.car-sec{
+  margin-top: 5%;
+}
+
+.nav-brand{
+  font-family: 'Playfair Display', serif;
+}
+
+#nav-holder{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 700;
+  margin-left: 20%;
+} 
+
+.caption{
+  margin-bottom: 15%;
+}
+
+.caption-h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.caption-p{
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+}
+
+.serv-sec{
+  overflow-x: hidden;
+}
+
+.serv-p{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  position: relative;
+  top: -205px;
+  left: 22%;
+}
+
+.serv-h1{
+  font-family: 'Playfair Display', serif;
+  color: rgb(36, 7, 1); 
+}
+
+.serv-span{
+  font-family: 'Playfair Display', serif;
+  font-style: italic !important;
+}
+
+
+.car-item{
+  background-image: url(../public/images/main-header-1.jpg);
+  display: block;
+  width: 100%;
+  height: 85vh;
+  background-position: center;
+}
+.car-item-2{
+  background-image: url(../public/images/main-header-2.jpg);
+  display: block;
+  width: 100%;
+  height: 85vh;
+  background-position: center;
+}
+.car-item-3{
+  background-image: url(../public/images/main-header-3.jpg);
+  display: block;
+  width: 100%;
+  height: 85vh;
+  background-position: center;
+}
+
+.wel-sec{
+  background-image: url(../public/images/cta.jpg);
+  height: 100vh;
+  background-position: center;
+  margin-top: 10%;
+  overflow-x: hidden;
+}
+
+.wel-h1{
+  font-family: 'Playfair Display', serif; 
+  font-size: 65px;
+}
+
+.wel-div{
+  position: relative !important;
+  bottom: -40%;
+  left: 10%;
+}
+
+.wel-span{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.wel-btn{
+  position: relative !important;
+  left: 30%;
+  margin-top: 3%;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.info-sec{
+  margin-top: 10%;
+  overflow-x: hidden;
+}
+.map-p{
+  font-family: 'Playfair Display', serif;
+}
+
+.foot-sec{
+  background-image: url(../public/images/footer-bg.jpg);
+  height: 70vh;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.foot-div{
+  position: relative;
+  left: 32%;
+  margin-top: 10%;
+}
+
+.foot-h4{
+  font-family: 'Playfair Display', serif;
+}
+
+.foot-span{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.foot-p{
+  font-family: 'Hind Madurai', sans-serif;
+  color: rgb(217, 217, 217);
+  position: relative;
+  right: 8%;
+}
+
+.foot-btn{
+  position: relative;
+  right: 55%;
+  margin-top: 1%;
+}
+
+.foot-div-1{
+  position: relative;
+  left: 10%;
+  margin-top: 13%;
+}
+
+.foot-div-2{
+  position: relative;
+  left: 55%;
+  margin-top: -4%;
+}
+
+.foot-a-1{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+}
+.foot-a-2{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  position: relative;
+  left: 30%;
+}
+.foot-a-3{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  position: relative;
+  left: 60%;
+}
+.foot-a-4{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  position: relative;
+  left: 100%;
+}
+.foot-a-5{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  position: relative;
+  left: 120%;
+}
+.foot-a-6{
+  text-decoration: none;
+  color: rgb(217, 217, 217);
+  position: relative;
+  left: 60%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  /* .nav-btn{
+    width: 100%;
+    margin-left: 30%;
+  }
+  .nav-sec{
+    width: 100vh !important;
+  } */
+  .main-iframe{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    right: 6%;
+  }
+  .info-div{
+    margin-top: 5%;
+  }
+  .info-col{
+    position: relative;
+    right: 38%;
+  }
+  .info-col-1{
+    position: relative;
+    right: 29%;
+  }
+  .info-col-2{
+    position: relative;
+    right: 20%;
+  }
+  .info-col-3{
+    position: relative;
+    right: 28%;
+  }
+  .info-col-4{
+    position: relative;
+    right: 19%;
+  }
+  .map-p-1{
+    margin-top: 20%;
+    position: relative;
+    right: 15%;
+  }
+  .map-p-2{
+    margin-top: 10%;
+    position: relative;
+    right: 10%;
+  }
+  .serv-h1{
+    text-align: center;
+  }
+  .serv-p-1{
+    text-align: center;
+  }
+  .serv-btn{
+    position: relative;
+    left: 30%;
+  }
+  .wel-div{
+    position: relative !important;
+    top: 17%;
+  }
+  .wel-h1{
+    text-align: center;
+    position: relative;
+    right: 13%;
+  }
+  .wel-btn{
+    position: relative;
+    left: 11%;
+  }
+  .foot-h4{
+    position: relative;
+    right: 20%;
+  }
+  .foot-p{
+    position: relative;
+    right: 30%;
+    text-align: center;
+  }
+  .form-placeholder{
+    width: 70% !important;
+    position: relative !important;
+    left: -16%;
+  }
+  .foot-btn{
+    position: relative;
+    right: 16%;
+    margin-top: 5%;
+    width: 70%;
+  }
+  .foot-div-1{
+    display: none;
+  }
+  .foot-div-2{
+    position: relative;
+    left: -3%;
+    margin-top: 40%;
+  }
+  .foot-a-5{
+    position: relative;
+    left: 47%;
+  }
+  .foot-a-3{
+    position: relative;
+    left: 18%;
+  }
+  .foot-a-4{
+    position: relative;
+    left: 37%;
+  }
+  .foot-a-6{
+    position: relative;
+    left: 34%;
+  }
 }
