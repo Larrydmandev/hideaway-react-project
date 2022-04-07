@@ -28,12 +28,12 @@ function Footer() {
         </div>
 
         <div className='foot-div-2 d-flex'>
-           <p><a href="" className='foot-a-1'>Home</a></p>
-           <p><a href="" className='foot-a-2'>Book Now</a></p>
-           <p><a href="" className='foot-a-3'>Contact</a></p>
-           <p><a href="" className='foot-a-4'>Events</a></p>
-           <p><a href="" className='foot-a-5'>Policies</a></p>
-           <p><a href="" className='foot-a-6'>Term + Conditions</a></p>
+           <p><a href="#top" className='foot-a-1'>Home</a></p>
+           <p><a href="#top" className='foot-a-2'>Book Now</a></p>
+           <p><a href="#top" className='foot-a-3'>Contact</a></p>
+           <p><a href="#top" className='foot-a-4'>Events</a></p>
+           <p><a href="#top" className='foot-a-5'>Policies</a></p>
+           <p><a href="#top" className='foot-a-6'>Term + Conditions</a></p>
         </div>
           
     </section>
