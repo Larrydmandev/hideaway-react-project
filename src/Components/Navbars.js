@@ -20,15 +20,6 @@ function Navbars() {
                         <Nav.Link href="#" className='text-muted'>Pages</Nav.Link>
                         <Nav.Link href="#" className='text-muted'>Contact</Nav.Link>
                         <Nav.Link href="#" className='text-muted'>Elements</Nav.Link>
-                        <Nav.Link href="#" className='text-muted'>Link</Nav.Link>
-                        <NavDropdown title="Link" id="navbarScrollingDropdown" className='text-muted'>
-                            <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#">
-                                Something else here
-                            </NavDropdown.Item>
-                        </NavDropdown>
                     </Nav>
                     <Form className="d-flex" style={{marginRight: '30%'}}>
                         <Button variant="outline-light" className='nav-btn'>Search</Button>
